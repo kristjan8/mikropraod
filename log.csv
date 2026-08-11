@@ -1,0 +1,31 @@
+Aeg;Meetod;Andmestik;R²(l1);R²(l2);R²(beta);RMSE(l1);RMSE(l2);RMSE(β);Ajakulu(s);Parameetrid
+Sun Aug  9 02:12:29 2026;Lineaarne regressioon;Sagedused;0.578227;0.451786;0.446675;0.124664;0.141544;0.08997;0.03
+Sun Aug  9 02:12:30 2026;Lineaarne regressioon;16 Haari kordajat;0.735816;0.600416;0.339815;0.098663;0.120843;0.098275;0.04
+Sun Aug  9 02:12:30 2026;Lineaarne regressioon;32 Haari kordajat;0.751021;0.609555;0.452565;0.095782;0.119453;0.08949;0.09
+Sun Aug  9 02:12:30 2026;Lineaarne regressioon;Sagedused müraga;0.24273;0.406093;0.39998;0.167042;0.147325;0.09369;0.02
+Sun Aug  9 02:12:30 2026;Lineaarne regressioon;16 Haari kordajat müraga;0.313367;0.483218;0.058088;0.159061;0.137427;0.117385;0.04
+Sun Aug  9 02:12:31 2026;Lineaarne regressioon;32 Haari kordajat müraga;0.560746;0.547122;0.129019;0.127221;0.128649;0.112879;0.08
+Sun Aug  9 02:19:51 2026;Otsustusmets;Sagedused;0.997333;0.99227;0.989869;0.009913;0.016807;0.012174;439.9;{'bootstrap': True, 'max_depth': 40, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 500}
+Sun Aug  9 02:32:46 2026;Otsustusmets;16 Haari kordajat;0.998294;0.993362;0.981688;0.007928;0.015576;0.016367;774.76;{'bootstrap': True, 'max_depth': 40, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 500}
+Sun Aug  9 02:57:42 2026;Otsustusmets;32 Haari kordajat;0.997244;0.992969;0.983586;0.010077;0.016029;0.015496;1496.74;{'bootstrap': True, 'max_depth': 40, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 500}
+Sun Aug  9 03:06:41 2026;Otsustusmets;Sagedused müraga;0.250391;0.401339;0.413252;0.166195;0.147914;0.092648;538.93;{'bootstrap': True, 'max_depth': 40, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 500}
+Sun Aug  9 03:20:09 2026;Otsustusmets;16 Haari kordajat müraga;0.990791;0.955167;0.900553;0.018421;0.040478;0.038142;806.99;{'bootstrap': True, 'max_depth': 40, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 500}
+Sun Aug  9 03:46:13 2026;Otsustusmets;32 Haari kordajat müraga;0.994038;0.963691;0.931504;0.014821;0.036427;0.031655;1563.82;{'bootstrap': True, 'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 500}
+Sun Aug  9 03:47:44 2026;Gradientvõimendamine (XGBoost);Sagedused;0.997557;0.992386;0.991914;0.009488;0.016681;0.010876;90.75;{'colsample_bytree': 0.8, 'gamma': 0, 'learning_rate': 0.05, 'max_depth': 10, 'n_estimators': 600, 'subsample': 0.8}
+Sun Aug  9 03:49:22 2026;Gradientvõimendamine (XGBoost);16 Haari kordajat;0.999387;0.995647;0.984579;0.004754;0.012613;0.01502;97.83;{'colsample_bytree': 0.8, 'gamma': 0, 'learning_rate': 0.05, 'max_depth': 10, 'n_estimators': 600, 'subsample': 0.8}
+Sun Aug  9 03:52:17 2026;Gradientvõimendamine (XGBoost);32 Haari kordajat;0.999222;0.996947;0.990039;0.005355;0.010564;0.012071;174.68;{'colsample_bytree': 0.8, 'gamma': 0, 'learning_rate': 0.05, 'max_depth': 10, 'n_estimators': 600, 'subsample': 0.8}
+Sun Aug  9 03:53:53 2026;Gradientvõimendamine (XGBoost);Sagedused müraga;0.251176;0.406899;0.419573;0.166108;0.147225;0.092147;95.82;{'colsample_bytree': 0.8, 'gamma': 1, 'learning_rate': 0.05, 'max_depth': 6, 'n_estimators': 600, 'subsample': 0.8}
+Sun Aug  9 03:55:50 2026;Gradientvõimendamine (XGBoost);16 Haari kordajat müraga;0.993399;0.960463;0.910985;0.015596;0.038012;0.036086;117.15;{'colsample_bytree': 0.8, 'gamma': 0, 'learning_rate': 0.05, 'max_depth': 10, 'n_estimators': 600, 'subsample': 0.8}
+Sun Aug  9 03:59:11 2026;Gradientvõimendamine (XGBoost);32 Haari kordajat müraga;0.996377;0.971236;0.947533;0.011554;0.032422;0.027705;200.91;{'colsample_bytree': 0.8, 'gamma': 0, 'learning_rate': 0.05, 'max_depth': 10, 'n_estimators': 600, 'subsample': 0.8}
+Sun Aug  9 04:01:04 2026;Tugivektor-regressioon;Sagedused;0.984763;0.974128;0.983195;0.023695;0.030749;0.01568;112.53;{'estimator__C': 50, 'estimator__epsilon': 0.05, 'estimator__gamma': 'scale'}
+Sun Aug  9 04:04:08 2026;Tugivektor-regressioon;16 Haari kordajat;0.909165;0.829644;0.833928;0.057853;0.078904;0.04929;183.9;{'estimator__C': 50, 'estimator__epsilon': 0.05, 'estimator__gamma': 'scale'}
+Sun Aug  9 04:07:25 2026;Tugivektor-regressioon;32 Haari kordajat;0.936053;0.88247;0.91322;0.048541;0.065538;0.03563;197.19;{'estimator__C': 50, 'estimator__epsilon': 0.05, 'estimator__gamma': 'scale'}
+Sun Aug  9 04:18:59 2026;Tugivektor-regressioon;Sagedused müraga;0.248474;0.40423;0.428157;0.166407;0.147556;0.091463;693.44;{'estimator__C': 50, 'estimator__epsilon': 0.1, 'estimator__gamma': 'auto'}
+Sun Aug  9 04:22:06 2026;Tugivektor-regressioon;16 Haari kordajat müraga;0.890319;0.803888;0.764853;0.063572;0.084658;0.058651;187.46;{'estimator__C': 50, 'estimator__epsilon': 0.05, 'estimator__gamma': 'scale'}
+Sun Aug  9 04:25:34 2026;Tugivektor-regressioon;32 Haari kordajat müraga;0.907613;0.836139;0.841759;0.058345;0.077385;0.048114;207.87;{'estimator__C': 50, 'estimator__epsilon': 0.05, 'estimator__gamma': 'scale'}
+Sun Aug  9 05:00:34 2026;Tehisnärvivõrgud;Sagedused;0.994772;0.983467;0.987997;0.01388;0.024581;0.013251;2099.75;{'units1': 128, 'units2': 128, 'lr': 0.0005}
+Sun Aug  9 05:35:38 2026;Tehisnärvivõrgud;16 Haari kordajat;0.994925;0.985786;0.970824;0.013675;0.022791;0.020659;2103.83;{'units1': 256, 'units2': 128, 'lr': 0.0005}
+Sun Aug  9 06:10:40 2026;Tehisnärvivõrgud;32 Haari kordajat;0.99678;0.986748;0.983351;0.010892;0.022007;0.015607;2101.56;{'units1': 256, 'units2': 128, 'lr': 0.0005}
+Sun Aug  9 06:45:43 2026;Tehisnärvivõrgud;Sagedused müraga;0.203908;0.359466;0.346373;0.17127;0.152999;0.097785;2103.05;{'units1': 128, 'units2': 128, 'lr': 0.0005}
+Sun Aug  9 07:20:46 2026;Tehisnärvivõrgud;16 Haari kordajat müraga;0.987943;0.949206;0.886914;0.021078;0.043085;0.040674;2101.96;{'units1': 128, 'units2': 128, 'lr': 0.001}
+Sun Aug  9 07:55:49 2026;Tehisnärvivõrgud;32 Haari kordajat müraga;0.994316;0.971249;0.944702;0.014472;0.032415;0.028442;2102.86;{'units1': 256, 'units2': 128, 'lr': 0.001}
